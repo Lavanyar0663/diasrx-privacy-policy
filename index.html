@@ -5,70 +5,175 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>DIAS Rx Privacy Policy</title>
   <style>
+    :root {
+      --primary: #0b5c6b;
+      --accent: #12c6d9;
+      --bg: #f7fbfc;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #5b6470;
+      --border: #d9e7eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
+      margin: 0;
       font-family: Arial, sans-serif;
+      background: linear-gradient(180deg, #eef9fb 0%, #ffffff 100%);
+      color: var(--text);
+    }
+
+    .wrap {
       max-width: 900px;
       margin: 40px auto;
-      padding: 0 20px;
-      line-height: 1.7;
-      color: #222;
+      padding: 20px;
     }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 32px;
+      box-shadow: 0 10px 30px rgba(11, 92, 107, 0.08);
+    }
+
+    .brand {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(18, 198, 217, 0.12);
+      color: var(--primary);
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+
     h1, h2 {
-      color: #0b5c6b;
+      color: var(--primary);
+      margin-top: 0;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+
+    h2 {
+      margin-top: 28px;
+      font-size: 22px;
+    }
+
+    p, li {
+      line-height: 1.75;
+      color: var(--text);
+    }
+
+    .meta {
+      color: var(--muted);
+      margin-bottom: 24px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .footer {
+      margin-top: 28px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        padding: 22px;
+      }
+
+      h1 {
+        font-size: 26px;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>Privacy Policy</h1>
-  <p>Effective date: April 8, 2026</p>
+  <div class="wrap">
+    <div class="card">
+      <div class="brand">DIAS Rx</div>
+      <h1>Privacy Policy</h1>
+      <p class="meta">Effective date: April 8, 2026</p>
 
-  <p>
-    DIAS Rx respects your privacy. This Privacy Policy explains how our application
-    collects, uses, stores, and protects user information.
-  </p>
+      <p>
+        DIAS Rx is committed to protecting the privacy and security of its users.
+        This Privacy Policy explains how information is collected, used, stored,
+        and protected when using the DIAS Rx application.
+      </p>
 
-  <h2>Information We Collect</h2>
-  <p>
-    DIAS Rx may collect personal and medical-related information necessary for the
-    operation of the application, including user login details, patient details,
-    prescription information, and pharmacy-related records.
-  </p>
+      <h2>Information We Collect</h2>
+      <p>
+        DIAS Rx may collect and process information required for healthcare and
+        pharmacy workflow management, including:
+      </p>
+      <ul>
+        <li>User account information such as name, email address, phone number, role, and login credentials.</li>
+        <li>Patient-related information such as name, age, gender, contact details, and prescription data.</li>
+        <li>Prescription, medication, and pharmacy workflow information required for app functionality.</li>
+        <li>Technical information necessary for security, troubleshooting, and service improvement.</li>
+      </ul>
 
-  <h2>How We Use Information</h2>
-  <p>
-    We use this information only for app functionality, including authentication,
-    prescription creation, patient management, pharmacy workflows, and system
-    improvement.
-  </p>
+      <h2>How We Use Information</h2>
+      <p>We use collected information to:</p>
+      <ul>
+        <li>Authenticate users and provide secure access to the app.</li>
+        <li>Manage patients, prescriptions, medication records, and pharmacy workflows.</li>
+        <li>Improve system performance, reliability, and user experience.</li>
+        <li>Maintain security, monitor misuse, and comply with legal or institutional requirements.</li>
+      </ul>
 
-  <h2>Data Sharing</h2>
-  <p>
-    We do not sell personal data. Information is shared only when necessary for
-    application functionality, legal compliance, or authorized institutional use.
-  </p>
+      <h2>Data Sharing</h2>
+      <p>
+        DIAS Rx does not sell personal data. Information may be shared only where
+        necessary for app functionality, institutional use, legal compliance, or
+        authorized administrative and medical workflows.
+      </p>
 
-  <h2>Data Security</h2>
-  <p>
-    We take reasonable steps to protect user data from unauthorized access, misuse,
-    or disclosure.
-  </p>
+      <h2>Data Security</h2>
+      <p>
+        We take reasonable technical and organizational measures to protect user
+        information from unauthorized access, disclosure, alteration, or misuse.
+      </p>
 
-  <h2>Data Retention</h2>
-  <p>
-    We retain data only as long as necessary for application functionality,
-    institutional records, and legal or operational requirements.
-  </p>
+      <h2>Data Retention</h2>
+      <p>
+        Data is retained only as long as necessary to operate the application,
+        maintain healthcare or institutional records, and comply with applicable
+        legal obligations.
+      </p>
 
-  <h2>User Rights</h2>
-  <p>
-    Users may request correction or deletion of their data, subject to applicable
-    legal and institutional obligations.
-  </p>
+      <h2>User Rights</h2>
+      <p>
+        Users may request correction or deletion of their personal data, subject
+        to medical, legal, and institutional record retention requirements.
+      </p>
 
-  <h2>Contact</h2>
-  <p>
-    If you have any questions about this Privacy Policy, contact us at:
-    <b>lavanyar0663.sse@saveetha.com</b>
-  </p>
+      <h2>Children's Privacy</h2>
+      <p>
+        DIAS Rx is intended for authorized institutional and healthcare-related use.
+        It is not designed for direct use by children without authorized supervision.
+      </p>
+
+      <h2>Contact Us</h2>
+      <p>
+        If you have questions about this Privacy Policy or your data, contact us at:
+        <strong>lavanyar0663.sse@saveetha.com</strong>
+      </p>
+
+      <div class="footer">
+        DIAS Rx Privacy Policy
+      </div>
+    </div>
+  </div>
 </body>
 </html>
